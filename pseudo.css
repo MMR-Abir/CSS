@@ -1,0 +1,14 @@
+.oo a:link{
+    color: greenyellow;
+}
+ 
+.oo a:visited{
+    color: chocolate;
+}
+ .oo a:hover{
+    color: aqua;
+ }
+
+ .oo a:active{
+    color: crimson;
+ }

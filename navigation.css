@@ -1,0 +1,57 @@
+.II ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.II ul li{
+
+}
+
+.II ul li a{
+    text-decoration: none;
+    width: 65px;
+    display: block;
+    background-color: aqua;
+    padding: 8px 16px;
+}
+
+.II ul li a:hover{
+    background-color: beige;
+    color: black;
+}
+
+.II ul li a.active{
+    background-color: rgb(177, 21, 122);
+    color: black;
+}
+
+.LL ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.LL ul li{
+    display: inline;
+
+}
+
+.LL ul li a{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 5px;
+    
+    }
+
+    .LL ul li a:hover{
+        background-color: beige;
+        color: black;
+        
+    }
+
+    .LL ul li a.active{
+        background-color: burlywood;
+        color: rgb(233, 202, 213);
+    }

@@ -1,0 +1,46 @@
+.TT{
+    border: 3px groove rgb(203, 12, 12);
+    background-color: aquamarine;
+    height: 50px;
+    width: 100px;
+    float: left;
+}
+
+.WW{
+    border-right: 3px solid red;
+    background-color: beige;
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin-left: 5px;
+
+}
+
+.II{
+    border: 5px outset rgb(61, 8, 176);
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+}
+.QQ{
+
+    border: 2px double
+    yellowgreen;
+    background-image: url(tree.jpg);
+    height: 50px;
+    width: 100px;
+    float: left;
+}
+
+.EE{
+    border: 3px solid red;
+    margin-top: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    width: 100px;
+    clear: both;
+    border-radius:100%;
+    text-align:center;
+}
