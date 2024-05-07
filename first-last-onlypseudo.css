@@ -1,0 +1,12 @@
+p:first-child{
+    color: rgb(197, 36, 18);
+}
+p:last-child{
+    color: rgb(46, 11, 187);
+}
+p:only-child{
+    color: cadetblue;
+}
+li:nth-child(2){
+    color: deeppink;
+}

@@ -1,0 +1,15 @@
+input:required{
+    background-color: aquamarine;
+}
+
+input[type="text"]:optional{
+    background-color: blue;
+}
+input:valid{
+    background-color: chartreuse;
+    color: white;
+}
+
+input:invalid{
+    background-color: darkcyan; color: aliceblue;
+}
