@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    background-color: aqua;
+}
+
+#wrapper{
+    width: 1050px;
+    margin: 0 auto;
+    background-color: aqua;
+    border: 1px solid grey;
+    height: 671px;
+}
+
+.banner{
+    height: 45px;
+    background-color: rgb(181, 106, 7);
+    padding: 28px;
+    
+}
+.banner h1{
+    text-align: center;
+}
+.brand{
+    background-image: url(../iMAGE/4fede.png);
+    height: 65px;
+    width: 185px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.search{
+    position: absolute;
+    right: 780px;
+}
+.navbar{
+    
+    background-color: blueviolet;
+    height: 50px;
+    padding: 10px;
+}
+
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar ul li{
+    display: inline ;
+}
+
+.navbar ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    background-color: orange;
+
+}
+.leftbar{
+    float: left;
+    height: 380px;
+    width: 20%;
+    background-color: brown;
+    border-right: 2px solid greenyellow;
+    padding: 35px;
+    margin-right: 10px;
+}
+
+.leftbar ul{
+    list-style-type: none;
+}
+.leftbar ul li{
+margin-bottom: 28px;
+
+}
+.leftbar ul li a{
+    text-decoration:none ;
+    padding: 25px;
+    color: azure;
+}
+
+.leftbar ul li a:hover{
+    background-color: black;
+    color:orangered ;
+}
+
+.content{
+    float: left;
+    height: 390px;
+    background-color: cadetblue;
+    width: 60%;
+    padding: 30px;
+    
+
+}
+.footer{
+    clear:both;
+    padding: 15px;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+}
