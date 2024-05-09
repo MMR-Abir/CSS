@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+#wrapper{
+    width: 1080px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 0 auto;
+    height:auto;
+}
+.flex-container{
+    display: flex;
+    background-color: rgb(30, 147, 220);
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    
+
+}
+.logo{
+    background-image: url(../image/4fede.png);
+    height:70px ;
+    width:200px ;
+}
+
+.brand-name{
+background-color: azure;
+}
+
+.navbar{
+    display: flex;
+    background-color: orange;
+    
+    
+}
+.navbar div{
+    margin:10px;
+    padding: 15px;
+}
+.navbar div a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 25px;
+    
+}
+
+.navbar div :hover{
+    background-color: rgb(158, 9, 133);
+    color: black;
+}
+.Main-Content{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+
+}
+
+.Main-Content div.leftbar{
+ background-color: cadetblue;
+ padding: 30px;
+ 
+}
+
+.leftbar div{
+    margin: 9px;
+    padding: 11px;
+}
+.leftbar div a{
+   text-decoration: none;
+   margin: 4px;
+   padding: 21px;
+}
+.leftbar div a.ll{
+    margin: -12px;
+}
+
+.leftbar div a:hover{
+    background-color: chartreuse;
+    color: black;
+
+}
+
+.Main-Content div.content{
+    background-color: blueviolet;
+    
+}
+
+
+
