@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    background-color: #FFFFFF;
+}
+
+.header a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.header a:hover{
+    color:bisque;
+    background-color: black;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.header li{
+    width: 100%;
+    
+}
+
+
+
+.logo-content{
+    display: flex;
+    justify-content: space-between;
+    height: 104px;
+    background-color: #FFFFFF;
+    align-items: center;
+    border-top: 1px solid grey;
+
+}
+.imaages{
+    background-image: url(../image/logo.png);
+    height: 100px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size:auto;
+    margin-top: 71px;
+}
+
+   
+
+.category h3{
+    border: 1px solid grey;
+    padding:15px;
+    border-radius: 5px;
+    
+}
+
+.category h3:hover{
+    background-color: #F7941D;
+    color: white;
+}
+
+.search{
+   margin-right: 10px;
+  
+   
+}
+
+.search-box{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.button{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+.nav a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding:21px 15px ;
+    color: white;
+    background-color: #333333;
+
+}
+
+.nav a:hover{
+    background-color: #F7941D;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li{
+    width: 100%;
+    background-color: #F7941D;
+    
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F7F7F7;
+    
+}
+
+.vertical-menu{
+    flex: 15%;
+    background-color: #FFFFFF;
+}
+
+.vertical-menu a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #5A5D5A;
+    background-color: #FFFFFF;
+    padding:14px 20px;
+}
+
+.vertical-menu a:hover{
+    color: #F7941D;
+}
+
+
+
+.vertical-menu ul{
+    list-style-type: none;
+}
+
+
+.text-content{
+    flex: 25%;
+    padding: 59px;
+}
+
+.text-content h3{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-content h1{
+    color: #F7941D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 46px;
+}
+
+.text-content p{
+    text-align:justify ;
+    margin-bottom: 21px;
+    color: #222222;
+}
+
+.button2{
+    border: 1px solid #333333;
+    padding: 14px;
+    
+    text-transform: uppercase;
+    background-color:#333333;
+    color: #F7F7F7;
+}
+
+.button2:hover{
+    background-color: #F7941D;
+}
+
+.pic-content{
+    background-image: url(../image/blog-single1.jpg);
+    height: 467px;
+    width: 300px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    flex: 60%;
+}
+
+.demo-items{
+    display: flex;
+    
+    margin-top: 25px;
+}
+
+.shirt{
+    flex: 20%;
+    margin-right: 20px;
+    background-color: #F7F7F7;
+    background-image: url(../image/pngtree-blank-black-t-shirt-model-mockup-png-image_6512548.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 319px;
+    background-position: right;
+    margin-left: 10px;
+}
+
+.shirt p{
+    color: #F7941D;
+    margin-bottom: 5px;
+}
+
+.shirt h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.vv{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.vv:hover{
+    background-color: #F7941D;
+    color: #FFFFFF;
+}
+.bag{
+    flex: 20%;
+    margin-right: 20px;
+    background-color: #F7F7F7;
+    background-image: url(../image/clothing-bag-png-1.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 319px;
+    background-position: right;
+}
+
+.bag p{
+    color: #F7941D;
+    margin-bottom: 5px;
+}
+
+.bag h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.tshirt{
+    flex: 20%;
+    background-color: #F7F7F7;
+    background-image: url(../image/rsz_1pngtree-man-in-black-t-shirt-on-isolated-background-png-image_13001872.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 319px;
+    background-position:right;
+    margin-right: 10px;
+}
+
+.tshirt p{
+    color: #F7941D;
+    margin-bottom: 5px;
+}
+
+.tshirt h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.trade{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    
+    
+}
+
+.trade h1{
+    padding: 10px 25px;
+    color: #333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 45px;
+}
+
+.second-nav{
+    
+    display:flex;
+    margin-top: 20px;
+    
+}
+
+.second-nav a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: row;
+    color: #403333;
+    background-color: #FFFFFF;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.second-nav a:hover{
+    background-color: #F7941D;
+    color: #FFFFFF;
+}
+
+
+
+.second-nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+    display:flex ;
+}
+
+.second-nav li{
+    width: 100%;
+}
+
+.pic-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic-container p{
+    color: #222222;
+}
+
+.pp{
+    height: 223px;
+    width: 360px;
+    margin-right: 23px;
+    margin-top: 40px;
+    border: 1px solid #F7941D;
+}
+.middle-footer{
+    text-align: center;
+    margin-top: 150px;
+    background-color: #F7941D;
+    height: 400px;
+    width: 100%;
+    padding: 123px;
+    
+}
+
+.middle-footer h4,h1,p{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.btn{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+}
+
+.footer{
+    display: flex;
+    margin-top: 91px;
+    background-color: #222222;
+    height: 300px;
+}
+
+.Contact{
+flex: 40%;
+padding: 73px;
+}
+
+.Contact p{
+    margin-top: 7px;
+}
+
+.Contact p,h4{
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Contact h2{
+    color: #F7941D;
+    margin-top: 5px;
+}
+
+.Information{
+    flex: 20%;
+    padding: 73px;
+
+}
+
+.Information h2{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.Information ul{
+    list-style-type: none;
+}
+
+.Information li{
+  padding: 7px;
+}
+
+.Information a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+
+.Customer{
+    flex: 20%;
+    padding: 73px;
+}
+
+.Customer h2{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.Customer ul{
+    list-style-type: none;
+}
+
+.Customer li{
+    padding: 7px;
+}
+
+.Customer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.Get{
+    flex: 20%;
+    padding: 73px;
+}
+
+.Get h2{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.Get ul{
+    list-style-type: none;
+}
+
+.Get li{
+    padding: 7px;
+}
+
+.Get a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
